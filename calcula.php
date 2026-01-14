@@ -6,8 +6,8 @@ $nome = $_POST['nome'];
 $tarefas = $_POST['tarefas'];
 $atrasos = $_POST['atrasos'];
 
-if($tarefas >= 20 && $atrasos <= 1){
-    $situacao = "Desempenho exelente";
+if($tarefas >= 25 && $atrasos == 0){
+    $situacao = "Funcionario elegivel para bônus";
 } elseif($tarefas >= 10 && $tarefas <= 19 && $atrasos <= 3){
     $situacao = "Desempenho regular";
 } else{
