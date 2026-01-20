@@ -8,7 +8,9 @@ $atrasos = $_POST['atrasos'];
 
 if($tarefas >= 25 && $atrasos == 0){
     $situacao = "Funcionario elegivel para bônus";
-} elseif($tarefas > 1 $$ $atrasos == 0;){
+
+} elseif($tarefas >= 20 $$ $atrasos == 1;){
+
     $situacao = "Desempenho exelente";
 }
 elseif($tarefas >= 10 && $tarefas <= 19 && $atrasos <= 3){
