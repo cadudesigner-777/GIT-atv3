@@ -19,6 +19,9 @@
         <label for="atrasos">Atrasos:</label><br>
         <input type="number" id="atrasos" name="atrasos" placeholder= "Atrasos">
         <br>
+        <label for="setor">Setor</label><br>
+        <input type="text" id="setor" name="setor" placeholder= "Seu setor">
+        <br>
 
         </div>
 
